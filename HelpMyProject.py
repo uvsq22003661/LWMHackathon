@@ -36,7 +36,7 @@ def generate(messages, **kwargs):
 def informMe():
     global request_limit
     request_limit += 1
-    if request_limit > 9:
+    if request_limit < 9:
         prompt = [
             {
                 "role": "system",
@@ -107,7 +107,7 @@ def inspireMe():
 def structure():
     global request_limit
     request_limit += 1
-    if request_limit > 9:
+    if request_limit < 9:
         prompt = [
             {
                 "role": "system",
@@ -189,7 +189,7 @@ def preciseStructure():
 def ideas():
     global request_limit
     request_limit += 1
-    if request_limit > 9:
+    if request_limit < 9:
         prompt = [
             {
                 "role": "system",
@@ -224,7 +224,8 @@ def preciseIdeas():
 def fundMe():
     global request_limit
     request_limit += 1
-    if request_limit > 9:
+    print(request_limit)
+    if request_limit < 9:
         prompt = [
             {
                 "role": "system",
@@ -257,7 +258,7 @@ def fundMe():
 def preciseFundMe(list_places=[]):
     global request_limit
     request_limit += 1
-    if request_limit > 9:
+    if request_limit < 9:
         user_response = input("Do you want specific informations concerning a continent or a country ? y/n\n> ")
         if user_response.lower()=="y":
             place = input("Enter the continent or country you want to focus on \n> ")
