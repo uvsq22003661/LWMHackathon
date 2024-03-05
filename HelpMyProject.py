@@ -9,6 +9,11 @@ chat_kwargs = {
         'max_tokens': 1024
     }
 
+OPENAI_API_KEY = "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"
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
+runing = True
+
 pitch = input("Hi! Welcome to HelpMyProject, the first command line tool designed to help researchers!\nFirst, describe the subject you're working on in a few lines\n> ")
 
 request_limit = 0
@@ -333,10 +338,6 @@ def preciseFundMe(list_places=[]):
     else:
         print("too many requests, going back to menu")
 
-OPENAI_API_KEY = "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"
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-
-runing = True
 while runing:
     request_limit = 0
     precisions = ""
@@ -349,10 +350,3 @@ while runing:
         fundMe()
     elif users_input=="4":
         runing=False
-
-'''
-i am developing a system for autonomous vehicles that is able to detect what is surrounding him and to take a decision depending on what was detected
-'''
-'''
-    I am working on a thesis about a cryptosecure voting system.
-'''
