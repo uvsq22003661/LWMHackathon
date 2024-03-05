@@ -9,7 +9,7 @@ chat_kwargs = {
         'max_tokens': 1024
     }
 
-OPENAI_API_KEY = "YOUR_API_KEY"
+OPENAI_API_KEY = "YOU_API_KEY"
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 runing = True
