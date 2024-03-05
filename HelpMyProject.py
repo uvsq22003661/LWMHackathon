@@ -242,35 +242,6 @@ def fundMe():
                 "role": "user",
                 "content": pitch
             },
-            {   "role": "assistant",
-                "content": "1. Government Grants:"
-                    +"\nNorth America: National Science Foundation (NSF),Department of Homeland Security (DHS). "
-                    +"\nEurope: European Commission's Horizon Europe program."
-                    +"\nAsia: Government research funding agencies like Japan's Japan Society for the Promotion of Science (JSPS)."
-                    +"\n2. Tech Companies:"
-                    +"\nNorth America: Microsoft, Google, IBM."
-                    +"\nEurope: Thales Group, Atos."
-                    +"\nAsia: Samsung, Huawei."
-                    +"\n3. Blockchain and Cryptocurrency Companies:"
-                    +"\nNorth America: Ethereum Foundation, Ripple."
-                    +"\nEurope: Ledger, Tezos."
-                    +"\nAsia: Binance, NEO."
-                    +"\n4. Nonprofit Organizations:"
-                    +"\nNorth America: Electronic Frontier Foundation (EFF), Verified Voting."
-                    +"\nEurope: European Digital Rights (EDRi), Transparency International."
-                    +"\nAsia: Asia Pacific Foundation, Open Net Korea."
-                    +"\n5. Academic Institutions:"
-                    +"\nNorth America: MIT, Stanford University."
-                    +"\nEurope: Sorbonne University, ETH Zurich."
-                    +"\nAsia: University of Tokyo, Tsinghua University."
-                    +"\n6. Crowdfunding:"
-                    +"\nNorth America: Kickstarter, Indiegogo."
-                    +"\nEurope: Ulule, KissKissBankBank."
-                    +"\nAsia: Campfire, Makuake."
-                    +"\n7. Government Contracts:"
-                    +"\nNorth America: United States Election Assistance Commission (EAC), Canadian Centre for Cyber Security."
-                    +"\nEurope: European Union's Directorate-General for Communications Networks, Content and Technology (DG CONNECT)."
-                    +"\nAsia: Singapore Cyber Security Agency, South Korea Ministry of Science and ICT."},
             {
                 "role": "user",
                 "content": "Give me for each funding method an example in a continent. Make it as short as possible"
