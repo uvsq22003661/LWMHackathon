@@ -1,5 +1,5 @@
 # LWM Hackathon
-This project was created for the LWM Hackathon by JOLY Thomas, PIRABAKARAN Thanushan and SANTINI Maya.
+This project was created for the LWM Hackathon by JOLY Thomas, PIRABAKARAN Thanushan and SANTINI Maya from Université Paris-Saclay.
 ## Help my project
 **Help my project** was designed in order to help researchers with their project, who already have a specific or large idea of what they want to work on. First, they will have to communicate their original idea with us.
 
@@ -23,3 +23,6 @@ Our program provided help on 3 different aspects of the research, and offers 3 o
     First, it will give them a few names on each continent. The researcher will have the option of either focusing on one continent or one country.
         
 All of our program is based on CHATGPT and the use of its API, with a Python script.
+
+
+To execute our program, go to the terminal and type ```python3 HelpMyProject.py``` after downloading it.
