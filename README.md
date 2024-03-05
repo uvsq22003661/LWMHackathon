@@ -1,7 +1,7 @@
 # LWM Hackathon
 This project was created for the LWM Hackathon by JOLY Thomas, PIRABAKARAN Thanushan and SANTINI Maya from Université Paris-Saclay.
 ## Help my project
-**Help my project** was designed in order to help researchers with their project, who already have a specific or large idea of what they want to work on. First, they will have to communicate their original idea with us.
+**Help my project** was designed in order to help Computer Science researchers with their project, who already have a specific or large idea of what they want to work on. First, they will have to communicate their original idea with us.
 
 Our program provided help on 3 different aspects of the research, and offers 3 options : 
 
@@ -26,3 +26,12 @@ All of our program is based on CHATGPT and the use of its API, with a Python scr
 
 
 To execute our program, go to the terminal and type ```python3 HelpMyProject.py``` after downloading it.
+
+## Vision
+
+This program could be turned into a website and application which will provide our initial idea :
+- Instead of focusing this on Computer Science researcher, extending it to all researchers.
+- Giving names of potential collaborators on **Inform me** and not only jobs to reach out to.
+- Adding a topic _Articles_ in **Inspire me** in order to give Articles related to the researcher's topic.
+- Giving names of potential funders.
+- Precising the accuracy by adding Chain-of-Thought prompting and more human feedback.

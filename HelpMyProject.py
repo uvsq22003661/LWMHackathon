@@ -3,13 +3,18 @@ import os
 import traceback
 import time
 
+'''
+Le travail consistera à implémenter le schéma de vote électronique proposé par O. Baudron,P.-A. Fouque, D. Pointcheval, J. Stern et G. Poupard en 2001. Ce schéma se compose deplusieurs parties, dont : le cryptosystème de Paillier, une méthode de déchiffrement à seuil,et certaines techniques de preuve zero-knowledge.
+I am implementing a cryptosecure voting system created by O. Baudron,P.-A. Fouque, D. Pointcheval, J. Stern et G. Poupard en 2001. This system implements a few things: Paillier algorithm, a threshold decryption and some zero knowledge-proofs"
+'''
+
 chat_kwargs = {
         'model': 'gpt-3.5-turbo-0125',#'gpt-4-0125-preview',#'gpt-3.5-turbo-0125',
         'temperature': 1.2,
         'max_tokens': 1024
     }
 
-OPENAI_API_KEY = "YOU_API_KEY"
+OPENAI_API_KEY = "YOUR_API_KEY"
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 runing = True
