@@ -1,5 +1,5 @@
 # LWM Hackathon
-This project was created for the LWM Hackathon by JOLY Thomas, PIRABAKARAN Thanushan and SANTINI Maya.
+This project was created for the LWM Hackathon by JOLY Thomas, PIRABAKARAN Thanushan and SANTINI Maya from Université Paris-Saclay.
 ## Help my project
 **Help my project** was designed in order to help researchers with their project, who already have a specific or large idea of what they want to work on. First, they will have to communicate their original idea with us.
 
