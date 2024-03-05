@@ -17,6 +17,8 @@ Our program provided help on 3 different aspects of the research, and offers 3 o
 
     Each of these services can then be used 5 more times within the same project, on the condition that more material and elements are provided each time.
 
+  To execute our program, go to the terminal and type "python3 HelpMyProject.py" after downloading it.
+
 - **Fund me** : 
 
     The researcher would like to find potential funding. **Fund me** will return a list of examples of investors, along with the fields they have invested in pertaining to the topic of the researcher's project. 
